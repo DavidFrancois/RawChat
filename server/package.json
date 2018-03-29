@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "RawChat Node.JS server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "François David",
+  "license": "ISC"
+}
