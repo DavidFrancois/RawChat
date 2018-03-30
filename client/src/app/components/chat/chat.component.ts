@@ -1,8 +1,8 @@
 
 import { Component, OnInit, OnDestroy, Input, ViewChild, ElementRef, AfterViewChecked } from '@angular/core';
 
-import { MessagesService } from './../../services/messages.services';
-import { Message } from '../../../models/message';
+import { MessagesService } from './../../services/messages.service';
+import { Message } from './../../models/messages';
 
 @Component({
   selector: 'app-chat',
