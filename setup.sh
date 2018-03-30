@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/bin/sh
 
 cd ./server;
 npm install;
