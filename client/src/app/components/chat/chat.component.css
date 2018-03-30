@@ -1,0 +1,26 @@
+.input-box {
+  height: 15vh;
+  order: 2;
+}
+
+.msg-box {
+  height: 85vh;
+  overflow-y: scroll;
+  order: 1;
+}
+
+.msg {
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.msg > .text  {
+  margin-left: 15px;
+  max-width: 100%;
+  word-wrap:break-word;
+}
+
+.send {
+  width: 100%;
+}
