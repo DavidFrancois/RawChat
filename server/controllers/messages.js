@@ -1,4 +1,4 @@
-const Message = require('../models/message');
+const Message = require('../models/messages');
 const io = require('../io');
 
 // Dirty, used because I do not implement a database yet
