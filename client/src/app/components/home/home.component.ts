@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
 
   goChat() {
     sessionStorage.setItem('CurrentUser', this.username);
+    this._router.navigate(['/chat']);
   }
 
   ngOnInit() {
